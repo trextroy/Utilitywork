@@ -1,0 +1,1 @@
+var MathModule = (function(){		var pub = {};		   		pub.add = function(a, b) {					 console.log('in add()', a, b);					 return a + b;		};		  		pub.sub = function(a, b) {					 console.log('in sub()', a, b);					 return a - b;		};		 		return pub;})();MathModule.add(15,23) //returns : 38MathModule.sub(53,21) //returns : 32
